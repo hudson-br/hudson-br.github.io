@@ -6,6 +6,7 @@ description: publications in reversed chronological order.
 nav: true
 nav_order: 1
 ---
+:sparkles: :smile: :gear: :dna: 
 <!-- _pages/publications.md -->
 <div class="publications">
 
