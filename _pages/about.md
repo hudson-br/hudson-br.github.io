@@ -23,6 +23,7 @@ Hi, I’m Hudson. I am scientist working at the exciting interface between mecha
 
 Research interests
 ======
+Point to [research]/al-folio/projects)
 
 Publications
 ======
