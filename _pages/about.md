@@ -26,10 +26,10 @@ Research interests
 ## [Criticality in living systems](/al-folio/projects/1_project)
 I received my PhD in solid mechanics from [Ecole Polytechnique](https://www.polytechnique.edu/en) under the guidance of [Prof. Lev Truskinovsky](https://blog.espci.fr/trusk/). My research focused on criticality in living systems. Critical systems are those that are on the brink of instability – they’re kind of like a Jenga tower that’s just about to collapse. When a system is critical, it can be hard to predict what will happen next, because small perturbations can have big effects. Learn more about my PhD work here: [PhD work](/al-folio/projects/1_project)
 
-## [Mechanics of the cell](/al-folio/projects/1_project)
+## [Mechanics of the cell](/al-folio/projects/2_project)
 After completing my PhD, I began my first postdoctoral appointment at College de France in the group of [Prof. Hervé Turlier]( https://www.turlierlab.com/). During this time, I delved deeper into the biological realm, my research focused on using advanced mechanics concepts to model the behavior of the cell surface, which is crucial to understand how cells change their shape in processes such as cell division, motility, and embryonic development. 
 
-## [Fracture of soft solids](/al-folio/projects/1_project)
+## [Fracture of soft solids](/al-folio/projects/3_project)
 I am currently a postdoctoral associate at MIT, working under the guidance of [Prof. Tal Cohen](https://tal-cohen.wixsite.com/website). My research focuses on unraveling the intricate mechanics behind damage and fracture in soft solids, specifically emphasizing cavitation. Cavitation refers to the spontaneous expansion of a cavity or defect within a solid body when subjected to a constant applied tension or internal pressure. While the phenomena of void growth and coalescence in ductile metals have been extensively studied, understanding the underlying mechanisms governing these processes in soft solids remains challenging. In response to this knowledge gap, my research combines analytical, numerical, and experimental methods to address the complexities associated with cavity expansion, fracture initiation, and the ensuing unstable response in these materials.
 
 
