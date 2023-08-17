@@ -33,11 +33,6 @@ After completing my PhD, I began my first postdoctoral appointment at [Collège 
 I am currently a postdoctoral associate at [MIT](https://www.mit.edu/), working under the guidance of [Prof. Tal Cohen](https://tal-cohen.wixsite.com/website). My research focuses on unraveling the intricate mechanics behind damage and fracture in soft solids, specifically emphasizing cavitation. Cavitation refers to the spontaneous expansion of a cavity or defect within a solid body when subjected to a constant applied tension or internal pressure. My research combines analytical, numerical, and experimental methods to address the complexities associated with cavity expansion, fracture initiation, and the ensuing unstable response in soft solids.
 
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-
 <!-- Publications
 ======
 Point to [publications](/al-folio/publications) -->
