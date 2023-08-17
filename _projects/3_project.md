@@ -2,7 +2,7 @@
 layout: page
 title: Fracture of soft solids
 description: 
-img: assets/img/7.jpg
+img: assets/img/cavitation.jpg
 redirect: 
 importance: 3
 category: work
