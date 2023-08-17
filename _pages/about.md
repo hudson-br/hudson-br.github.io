@@ -23,19 +23,20 @@ Hi, I’m Hudson. I am a scientist working at the exciting interface between mec
 
 Research interests
 ======
-### [Criticality in living systems](/al-folio/projects/1_project)
+#### [Criticality in living systems](/al-folio/projects/1_project)
 I received my PhD in solid mechanics from [École Polytechnique](https://www.polytechnique.edu/en) under the guidance of [Prof. Lev Truskinovsky](https://blog.espci.fr/trusk/). My research focused on criticality in living systems. Critical systems are those that are on the brink of instability – they’re kind of like a Jenga tower that’s just about to collapse. When a system is critical, it can be hard to predict what will happen next, because small perturbations can have big effects. 
 
-### [Mechanics of the cell](/al-folio/projects/2_project)
+#### [Mechanics of the cell](/al-folio/projects/2_project)
 After completing my PhD, I began my first postdoctoral appointment at [Collège de France](https://www.college-de-france.fr/fr) in the group of [Prof. Hervé Turlier]( https://www.turlierlab.com/). During this time, I delved deeper into the biological realm, my research focused on using advanced mechanics concepts to model the behavior of the cell surface, which is crucial to understand how cells change their shape in processes such as cell division, motility, and embryonic development. 
 
-### [Fracture of soft solids](/al-folio/projects/3_project)
+#### [Fracture of soft solids](/al-folio/projects/3_project)
 I am currently a postdoctoral associate at [MIT](https://www.mit.edu/), working under the guidance of [Prof. Tal Cohen](https://tal-cohen.wixsite.com/website). My research focuses on unraveling the intricate mechanics behind damage and fracture in soft solids, specifically emphasizing cavitation. Cavitation refers to the spontaneous expansion of a cavity or defect within a solid body when subjected to a constant applied tension or internal pressure. My research combines analytical, numerical, and experimental methods to address the complexities associated with cavity expansion, fracture initiation, and the ensuing unstable response in soft solids.
 
 
 # Heading 1
 ## Heading 2
 ### Heading 3
+#### Heading 4
 
 <!-- Publications
 ======
