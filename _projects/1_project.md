@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ph.D work
+title: Criticality in living systems
 description: Collective effects in muscle contraction and cellular adhesion
 img: assets/img/12.jpg
 importance: 1
