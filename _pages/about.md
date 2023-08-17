@@ -21,9 +21,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I’m Hudson. I am scientist working at the exciting interface between mechanics, physics and Biology. I am currently a postdoc at MIT in the group of [Prof. Tal Cohen](https://tal-cohen.wixsite.com/website).
 
-I received my PhD from [Ecole Polytechnique](https://www.polytechnique.edu/en) under theguidance of [Prof. Lev Truskinovsky](https://blog.espci.fr/trusk/). My research focused on criticality in living systems. Critical systems are those that are on the brink of instability – they’re kind of like a Jenga tower that’s just about to collapse. When a system is critical, it can be hard to predict what will happen next, because small perturbations can have big effects. Learn more about my PhD work here: [PhD work](/al-folio/projects/1_project)
+I received my PhD in solid mechanics from [Ecole Polytechnique](https://www.polytechnique.edu/en) under the guidance of [Prof. Lev Truskinovsky](https://blog.espci.fr/trusk/). My research focused on criticality in living systems. Critical systems are those that are on the brink of instability – they’re kind of like a Jenga tower that’s just about to collapse. When a system is critical, it can be hard to predict what will happen next, because small perturbations can have big effects. Learn more about my PhD work here: [PhD work](/al-folio/projects/1_project)
 
-After my PhD, 
+After completing my PhD, I began my first postdoctoral appointment at College de France in the group of [Prof. Hervé Turlier]( https://www.turlierlab.com/). During this time, I delved deeper into the biological realm, my research focused on using advanced mechanics concepts to model the behavior of the cell surface, which is crucial to understand how cells change their shape in processes such as cell division, motility, and embryonic development. 
 
 
 Research interests
