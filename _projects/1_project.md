@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ph.D work
-description: a project with a background image
+description: Collective effects in muscle contraction and cellular adhesion
 img: assets/img/12.jpg
 importance: 1
 category: work
