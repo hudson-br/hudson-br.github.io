@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Criticality in living systems
-description: Collective effects in muscle contraction and cellular adhesion
+description: 
 img: assets/img/flock.gif
 importance: 1
 category: work

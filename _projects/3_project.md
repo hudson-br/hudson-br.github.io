@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fracture of soft solids
-description: a project that redirects to another website
+description: 
 img: assets/img/7.jpg
 redirect: 
 importance: 3

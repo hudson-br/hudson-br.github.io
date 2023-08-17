@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Mechanics of the cell
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+description:
+img: assets/img/cell-division.gif
 importance: 2
 category: work
 giscus_comments: true
