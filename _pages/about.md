@@ -19,8 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-:gear:
-
 Hi, I’m Hudson. I am a scientist working at the exciting interface between mechanics, physics and Biology. I am currently a postdoc at MIT in the group of [Prof. Tal Cohen](https://tal-cohen.wixsite.com/website).
 
 Research interests
