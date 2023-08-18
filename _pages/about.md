@@ -35,13 +35,10 @@ After completing my PhD, I began my first postdoctoral appointment at [Collège 
 I am currently a postdoctoral associate at [MIT](https://www.mit.edu/), working under the guidance of [Prof. Tal Cohen](https://tal-cohen.wixsite.com/website). My research focuses on unraveling the intricate mechanics behind damage and fracture in soft solids, specifically emphasizing cavitation. Cavitation refers to the spontaneous expansion of a cavity or defect within a solid body when subjected to a constant applied tension or internal pressure. My research combines analytical, numerical, and experimental methods to address the complexities associated with cavity expansion, fracture initiation, and the ensuing unstable response in soft solids.
 
 
-<<<<<<< HEAD
 <!-- Publications
 ======
 Point to [publications](/al-folio/publications) -->
 
-=======
->>>>>>> 8c19d234e671701b19170472e6c54082aad81626
 <!-- Write your biography here. <a href='#'>Affiliations</a> Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
