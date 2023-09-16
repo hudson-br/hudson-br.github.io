@@ -23,5 +23,3 @@ Besides the account of geometrical inhomogeneity, our recent work on muscle cont
 I proposed an analogy between cellular adhesion and thermalized fracture of disordered materials to study the fluctuations during cellular adhesion. We related the obtained results to recent observations of intermittent behavior involved in cell debonding, also suggesting near-criticality. The model for cellular adhesion inspired an augmented version of the classic fiber bundle model (FBM), which is a prototypical model of fracture in disordered solids. 
 
 Contrary to the predictions of damage mechanics in homogeneous media, which describe the deterioration of the material as a continuous process, experiments show that damage occurs in bursts of micro-rupture separated by elastic phases. Recent studies reveal that these fluctuations have unique non-Gaussian features, like long tails and strong correlations. My research, using analytical models, demonstrates how material properties affect these fluctuations.
-
-
