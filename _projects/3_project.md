@@ -10,6 +10,9 @@ category: work
 
 # In construction
 
+#### Mechanics of Damage and Fracture in Soft Solids. 
+
+My recent research focuses on unraveling the intricate mechanics behind damage and fracture in soft solids, specifically emphasizing cavitation. Cavitation refers to the spontaneous expansion of a cavity or defect within a solid body when subjected to a constant applied tension or internal pressure. While the phenomena of void growth and coalescence in ductile metals have been extensively studied, understanding the underlying mechanisms governing these processes in soft solids remains challenging. In response to this knowledge gap, my research combines analytical, numerical, and experimental methods to address the complexities associated with cavity expansion, fracture initiation, and the ensuing unstable response in these materials. 
 <!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
