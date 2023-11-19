@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fracture of soft solids
+title: Failure mechanisms and statistical precursors
 description: 
 img: assets/img/cavitation.jpg
 redirect: 
