@@ -19,18 +19,18 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I’m Hudson. I am a scientist working at the exciting interface between mechanics, physics and Biology. I am currently a postdoc at MIT in the group of [Prof. Tal Cohen](https://tal-cohen.wixsite.com/website).
+Hi, I’m Hudson. I am a scientist working at the fascinating interface between mechanics, physics and Biology. My work aims to understand how complex behaviors emerge in living and soft materials, using a combination of theory, simulations, and experiments. I am currently a postdoctoral associate at MIT in the group of [Prof. Tal Cohen](https://tal-cohen.mit.edu).
 
 Research interests
 ======
 #### [Criticality in living systems](/projects/1_project)
-I received my PhD in solid mechanics from [École Polytechnique](https://www.polytechnique.edu/en) under the guidance of [Prof. Lev Truskinovsky](https://blog.espci.fr/trusk/). My research focused on criticality in living systems. Critical systems are those that are on the brink of instability – they’re kind of like a Jenga tower that’s just about to collapse. When a system is critical, it can be hard to predict what will happen next, because small perturbations can have big effects. 
+I received my PhD in solid mechanics from [École Polytechnique](https://www.polytechnique.edu/en) under the supervision of [Prof. Lev Truskinovsky](https://blog.espci.fr/trusk/). My research explored how biological system may operate near critical points – states where systems hover on the edge of instability, making them excquisitely sensitive to small perturbations. Like a jenga tower that's just about to collapse, such systems can undergo large, sudden changes in response to tiny inputs. This critical behavior, long studied in physics, may offer living systems unique advantages in terms of adaptability, responsiveness, and information processing.
 
 #### [Mechanics of the cell](/projects/2_project)
-After completing my PhD, I began my first postdoctoral appointment at [Collège de France](https://www.college-de-france.fr/fr) in the group of [Prof. Hervé Turlier]( https://www.turlierlab.com/). During this time, I delved deeper into the biological realm. My research focused on using mechanics concepts to model the behavior of the cell surface, which is crucial to understand how cells change their shape in processes such as division, motility, and embryonic development. 
+After completing my PhD, I began my first postdoctoral appointment at [Collège de France](https://www.college-de-france.fr/fr) in the group of [Prof. Hervé Turlier]( https://www.turlierlab.com/). There, I developed mechanical models of the cell cortex — a thin, active layer that controls the shape and motion of cells. My work contributed to understanding how physical forces drive key biological processes such as cell division, motility, and tissue morphogenesis. I drew on concepts from continuum mechanics and active matter physics to link microscopic actomyosin dynamics to large-scale cellular deformations.
 
 #### [Fracture of soft solids](/projects/3_project)
-I am currently a postdoctoral associate at [MIT](https://www.mit.edu/), working under the guidance of [Prof. Tal Cohen](https://tal-cohen.wixsite.com/website). My research focuses on unraveling the intricate mechanics behind damage and fracture in soft solids, specifically emphasizing cavitation. Cavitation refers to the spontaneous expansion of a cavity or defect within a solid body when subjected to a constant applied tension or internal pressure. My research combines analytical, numerical, and experimental methods to address the complexities associated with cavity expansion, fracture initiation, and the ensuing unstable response in soft solids.
+I am currently a postdoctoral associate at [MIT](https://www.mit.edu/), working under the guidance of [Prof. Tal Cohen](https://tal-cohen.wixsite.com/website).  My research focuses on understanding how soft materials—such as biological tissues, gels, and elastomers—fracture under tensile loads. In particular, I study how damage localizes and how cavities nucleate and grow in these materials, leading to failure. A key insight from my work is that fracture patterns in soft solids often arise from symmetry-breaking bifurcations, where a previously uniform deformation suddenly becomes unstable, giving rise to localized fracture modes.
 
 
 <!-- Publications
