@@ -317,3 +317,99 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:5rem
   footer{padding:4rem 1.5rem 2.5rem;}
   .join-cta-block{flex-direction:column;}
 }
+
+@media(max-width:700px){
+  nav{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:0.62rem;
+    padding:0.72rem 1.05rem 0.78rem;
+  }
+  .nav-logo{
+    width:100%;
+    min-width:0;
+  }
+  .nav-logo-main{
+    font-size:0.98rem;
+    line-height:1.12;
+    letter-spacing:0;
+  }
+  .nav-logo-sub{
+    font-size:0.5rem;
+    line-height:1.35;
+  }
+  .nav-links{
+    width:100%;
+    flex-wrap:wrap;
+    gap:0.36rem 0.9rem;
+    justify-content:flex-start;
+  }
+  .nav-links a{
+    font-size:0.58rem;
+    line-height:1.2;
+    letter-spacing:0.08em;
+  }
+  .page-body{
+    padding-top:112px;
+  }
+
+  #hero{
+    min-height:100svh;
+    padding:7.7rem 1.05rem 5.8rem;
+    align-items:center;
+  }
+  .hero-inner{
+    max-width:26rem;
+    padding:0;
+  }
+  .hero-badge{
+    font-size:0.5rem;
+    letter-spacing:0.11em;
+    margin-bottom:1.7rem;
+    padding:0.35rem 0.82rem;
+  }
+  .hero-title{
+    font-size:3.15rem;
+    line-height:1.02;
+    letter-spacing:0;
+    margin-bottom:1.3rem;
+  }
+  .hero-divider{
+    margin-bottom:1.35rem;
+  }
+  .hero-tagline{
+    font-size:1.13rem;
+    line-height:1.62;
+    margin-bottom:2rem;
+  }
+  .hero-tagline br{
+    display:none;
+  }
+  .hero-cta{
+    align-items:stretch;
+    flex-direction:column;
+    gap:0.72rem;
+    max-width:17rem;
+    margin:0 auto;
+  }
+  .hero-cta .btn{
+    width:100%;
+    text-align:center;
+  }
+  .scroll-cue{
+    bottom:1.05rem;
+  }
+}
+
+@media(max-width:390px){
+  .hero-title{
+    font-size:2.8rem;
+  }
+  .hero-tagline{
+    font-size:1.04rem;
+  }
+  .btn{
+    padding-left:1.2rem;
+    padding-right:1.2rem;
+  }
+}
