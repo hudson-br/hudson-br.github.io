@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications — MCM Laboratory</title>
+<meta name="description" content="Publications of the Mechanics of Complex Matter Laboratory at the University of Minnesota.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-main">Mechanics of Complex Matter Laboratory</span>
+    <span class="nav-logo-sub">University of Minnesota &nbsp;·&nbsp; CEGE</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="research.html">Research</a></li>
+    <li><a href="publications.html" class="active">Publications</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="join.html">Join</a></li>
+  </ul>
+</nav>
+
+<div class="page-body">
+  <section class="sec">
+    <div class="sec-inner">
+
+      <div class="fade-up" style="margin-bottom:3rem;">
+        <div class="kicker">Selected Publications</div>
+        <h1 class="sec-heading">Published Work</h1>
+      </div>
+
+      <!-- filter buttons — rendered by JS -->
+      <div class="pub-filter fade-up" id="pub-filter"></div>
+
+      <!-- publication list — rendered by JS -->
+      <div class="pub-list" id="pub-list"></div>
+
+      <div class="fade-up" style="margin-top:2.5rem;">
+        <a href="https://scholar.google.com/citations?user=yoGu0xsAAAAJ&hl=en&authuser=1" target="_blank" class="btn btn-ghost">Full list on Google Scholar &rarr;</a>
+      </div>
+
+      <!-- papers in preparation -->
+      <div class="prep-section fade-up">
+        <div class="kicker">In Preparation</div>
+        <h2 class="sec-heading" style="margin-bottom:1rem;">Papers in Preparation</h2>
+        <p class="prep-intro">Manuscripts currently in preparation or under review. Contact us for preprints where available.</p>
+        <div id="prep-list"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-layout">
+      <div>
+        <div class="f-lab">Mechanics of Complex Matter Laboratory</div>
+        <p class="f-tag">Multiscale, multiphysics models for failure, instability, and living matter.</p>
+        <p class="f-umn">University of Minnesota Twin Cities</p>
+      </div>
+      <div class="fcol">
+        <div class="fcol-head">Contact</div>
+        <address>
+          Hudson Borja da Rocha<br>
+          Assistant Professor<br><br>
+          160 Civil Engineering Building<br>
+          500 Pillsbury Drive SE<br>
+          Minneapolis, MN 55455<br><br>
+          <a href="mailto:hudsonbr@umn.edu">hudsonbr@umn.edu</a>
+        </address>
+      </div>
+      <div class="fcol">
+        <div class="fcol-head">Navigate</div>
+        <ul class="fnav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="join.html">Join the Lab</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Mechanics of Complex Matter Laboratory &nbsp;·&nbsp; University of Minnesota</span>
+      <span>hudsonbr@umn.edu</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+/* ================================================================
+   PUBLICATIONS DATA
+   To add a paper: append an object to PUBS below.
+   Fields: year, title, authors, venue, cat, badge, cls
+   cat options: "failure" | "soft" | "bio"
+   ================================================================ */
+const PUBS = [
+  {
+    year: 2026,
+    title: "Damage localization as a bifurcation phenomenon and the resulting fracture patterns in tubular soft material",
+    authors: "Hudson Borja da Rocha & Tal Cohen",
+    venue: "Journal of the Mechanics and Physics of Solids",
+    cat: "soft", badge: "JMPS", cls: "b-jmps"
+  },
+  {
+    year: 2025,
+    title: "Interfacial Cavitation with Surface Tension: New Insights into Failure of Particle Reinforced Polymers",
+    authors: "Xuanhe Li, Brendan Unikewicz, S. Chockalingam, Hudson Borja da Rocha, Tal Cohen",
+    venue: "Journal of the Mechanics and Physics of Solids",
+    cat: "soft", badge: "JMPS", cls: "b-jmps"
+  },
+  {
+    year: 2025,
+    title: "Cracking Common Notions on How Eggs Break: Strength Versus Toughness and the Failure of Shell Structures",
+    authors: "Sutanto, Abu-Qbeitah, Jeselsohn, Unikewicz, Bonavia, Rudolph, Borja da Rocha, Naghibzadeh, Cohen",
+    venue: "Nature Communications Physics",
+    cat: "soft", badge: "Nature", cls: "b-nat"
+  },
+  {
+    year: 2024,
+    title: "Onwards and upwards",
+    authors: "Hudson Borja da Rocha & Tal Cohen",
+    venue: "Nature Physics",
+    cat: "soft", badge: "Nature Physics", cls: "b-nat"
+  },
+  {
+    year: 2023,
+    title: "Cell protrusions and contractions generate long-range membrane tension propagation",
+    authors: "De Belly, Yan, Borja da Rocha, Ichbiah, Town, Turlier, Bustamante, Weiner",
+    venue: "Cell 186(14), 3049–3061",
+    cat: "bio", badge: "Cell", cls: "b-cell"
+  },
+  {
+    year: 2022,
+    title: "A viscous active shell theory of the cell cortex",
+    authors: "Hudson Borja da Rocha, Jeremy Bleyer, Hervé Turlier",
+    venue: "Journal of the Mechanics and Physics of Solids 164, 104876",
+    cat: "bio", badge: "JMPS", cls: "b-jmps"
+  },
+  {
+    year: 2022,
+    title: "Mean field fracture in disordered solids: Statistics of fluctuations",
+    authors: "Hudson Borja da Rocha & Lev Truskinovsky",
+    venue: "Journal of the Mechanics and Physics of Solids 158, 104646",
+    cat: "failure", badge: "JMPS", cls: "b-jmps"
+  },
+  {
+    year: 2021,
+    title: "A plausible mechanism of muscle stabilization in stall conditions",
+    authors: "Hudson Borja da Rocha & Lev Truskinovsky",
+    venue: "European Physical Journal Plus 136, 683",
+    cat: "failure", badge: "EPJ+", cls: "b-epj"
+  },
+  {
+    year: 2020,
+    title: "Rigidity-controlled crossover: from spinodal to critical failure",
+    authors: "Hudson Borja da Rocha & Lev Truskinovsky",
+    venue: "Physical Review Letters 124, 015501",
+    cat: "failure", badge: "PRL", cls: "b-prl"
+  },
+  {
+    year: 2019,
+    title: "Functionality of disorder in muscle mechanics",
+    authors: "Hudson Borja da Rocha & Lev Truskinovsky",
+    venue: "Physical Review Letters 122, 088103",
+    cat: "failure", badge: "PRL", cls: "b-prl"
+  },
+  {
+    year: 2019,
+    title: "Equilibrium unzipping at finite temperature",
+    authors: "Hudson Borja da Rocha & Lev Truskinovsky",
+    venue: "Archive of Applied Mechanics 89, 535–544",
+    cat: "failure", badge: "AAM", cls: "b-misc"
+  },
+  {
+    year: 2015,
+    title: "On the modeling of fiber dispersion in fiber-reinforced elastic materials",
+    authors: "Andrey V. Melnik, Hudson Borja da Rocha, Alain Goriely",
+    venue: "International Journal of Non-Linear Mechanics 75, 92–106",
+    cat: "soft", badge: "IJNLM", cls: "b-misc"
+  }
+];
+
+/* ================================================================
+   PAPERS IN PREPARATION DATA
+   To add: append an object with title and authors.
+   ================================================================ */
+const PREP = [
+  {
+    title: "Myosin tunes both contractility and viscosity at the cell cortex for a successful cytokinesis",
+    authors: "Joana Leite, Hudson Borja da Rocha, Hervé Turlier, Ana Carvalho"
+  },
+  {
+    title: "Diffuse nature of brittle to ductile transition as a Griffiths phase phenomenon",
+    authors: "Hudson Borja da Rocha, Umut Salman, Damien Vandembroucq, Lev Truskinovsky"
+  },
+  {
+    title: "Rigidity induced transition from dry to viscous friction in biological adhesion",
+    authors: "Hudson Borja da Rocha & Lev Truskinovsky"
+  },
+  {
+    title: "Cell cortex as an active nematic viscous shell",
+    authors: "Hudson Borja da Rocha & Hervé Turlier"
+  }
+];
+
+/* ── render filter buttons ── */
+const categories = [
+  { key: 'all',     label: 'All' },
+  { key: 'failure', label: 'Statistical Failure' },
+  { key: 'soft',    label: 'Soft Fracture' },
+  { key: 'bio',     label: 'Living Matter' }
+];
+const filterEl = document.getElementById('pub-filter');
+categories.forEach(c => {
+  const btn = document.createElement('button');
+  btn.className = 'pf-btn' + (c.key === 'all' ? ' active' : '');
+  btn.dataset.cat = c.key;
+  btn.textContent = c.label;
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.pf-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.pub-item').forEach(item => {
+      item.classList.toggle('hidden', c.key !== 'all' && item.dataset.cat !== c.key);
+    });
+  });
+  filterEl.appendChild(btn);
+});
+
+/* ── render publication list ── */
+const listEl = document.getElementById('pub-list');
+PUBS.forEach(p => {
+  listEl.insertAdjacentHTML('beforeend', `
+    <div class="pub-item fade-up" data-cat="${p.cat}">
+      <div class="pub-year">${p.year}</div>
+      <div>
+        <div class="pub-title">${p.title}</div>
+        <div class="pub-authors">${p.authors}</div>
+        <div class="pub-venue">${p.venue}</div>
+      </div>
+      <span class="pub-badge ${p.cls}">${p.badge}</span>
+    </div>
+  `);
+});
+
+/* ── render in-preparation list ── */
+const prepEl = document.getElementById('prep-list');
+PREP.forEach(p => {
+  prepEl.insertAdjacentHTML('beforeend', `
+    <div class="prep-item fade-up">
+      <div class="prep-year">In prep.</div>
+      <div>
+        <div class="prep-title">${p.title}</div>
+        <div class="prep-authors">${p.authors}</div>
+      </div>
+    </div>
+  `);
+});
+</script>
+<script src="main.js"></script>
+</body>
+</html>
