@@ -199,13 +199,18 @@ nav{
 .award-txt{font-size:0.88rem;font-weight:300;color:var(--text-dim);line-height:1.65;}
 .member-section{margin-top:3.5rem;padding-top:3.5rem;border-top:1px solid var(--border);}
 .member-head{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:1.5rem;}
-.member-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;}
+.member-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;}
 .member-card{min-height:190px;border:1px solid var(--border);background:rgba(255,255,255,0.012);padding:1.5rem;display:flex;flex-direction:column;justify-content:space-between;transition:border-color 0.2s,background 0.2s;}
 .member-card:hover{border-color:var(--border-accent);background:var(--surface-2);}
+.member-card.has-photo{grid-column:1/-1;display:grid;grid-template-columns:140px minmax(0,1fr);column-gap:1.5rem;row-gap:1rem;align-items:start;}
+.member-portrait{grid-row:span 2;display:block;width:100%;aspect-ratio:4/5;height:auto;object-fit:cover;border:1px solid var(--border);}
+.member-links{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1rem;}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0;}
 .member-role{font-family:'IBM Plex Mono',monospace;font-size:0.67rem;color:var(--accent);letter-spacing:0.13em;text-transform:uppercase;margin-bottom:0.9rem;}
 .member-name{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:400;color:var(--text);line-height:1.2;margin-bottom:0.55rem;}
 .member-focus{font-size:0.88rem;font-weight:300;color:var(--text-dim);line-height:1.75;}
 .member-status{margin-top:1.5rem;font-size:0.67rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-muted);}
+.member-card.has-photo .member-status{grid-column:2;margin-top:0;}
 .member-card.open .member-name{color:var(--text-dim);font-style:italic;}
 
 /* ============================================================
@@ -320,6 +325,9 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:5rem
 }
 
 @media(max-width:700px){
+  .member-card.has-photo{grid-template-columns:1fr;}
+  .member-portrait{grid-row:auto;max-width:160px;}
+  .member-card.has-photo .member-status{grid-column:auto;}
   nav{
     align-items:flex-start;
     flex-direction:column;

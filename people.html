@@ -166,14 +166,20 @@
    TEAM MEMBERS DATA
    To add a member: append an object to MEMBERS.
    Set open: false and fill in name/focus/status for real members.
+   Optional fields: photo, photoWidth, photoHeight, website, email.
    ================================================================ */
 const MEMBERS = [
   {
-    role: 'Postdoctoral Researcher',
-    name: 'Position open',
-    focus: 'Computational mechanics, statistical physics, soft matter, or biological physics.',
-    status: 'Recruiting',
-    open: true
+    role: 'Postdoctoral Associate',
+    name: 'Xiangxin Dang',
+    focus: 'Geometric mechanics of reconfigurable structures and metamaterials, including origami, kirigami, and tensegrity.',
+    status: 'Joined September 2026',
+    photo: 'figures/xiangxin-dang.jpg',
+    photoWidth: 1057,
+    photoHeight: 1080,
+    website: 'https://xiangxindang.com/',
+    email: 'dang0371@umn.edu',
+    open: false
   },
   {
     role: 'Ph.D. Student',
@@ -193,11 +199,16 @@ const MEMBERS = [
 
 const grid = document.getElementById('member-grid');
 grid.innerHTML = MEMBERS.map(m => `
-  <article class="member-card${m.open ? ' open' : ''}">
+  <article class="member-card${m.open ? ' open' : ''}${m.photo ? ' has-photo' : ''}">
+    ${m.photo ? `<img class="member-portrait" src="${m.photo}" alt="Portrait of ${m.name}" width="${m.photoWidth}" height="${m.photoHeight}" loading="lazy" decoding="async">` : ''}
     <div>
       <div class="member-role">${m.role}</div>
       <div class="member-name">${m.name}</div>
       <p class="member-focus">${m.focus}</p>
+      ${m.website || m.email ? `<div class="member-links">
+        ${m.website ? `<a href="${m.website}" target="_blank" rel="noopener noreferrer" class="pi-lnk">Website<span class="visually-hidden"> of ${m.name}</span></a>` : ''}
+        ${m.email ? `<a href="mailto:${m.email}" class="pi-lnk">Email<span class="visually-hidden"> ${m.name}</span></a>` : ''}
+      </div>` : ''}
     </div>
     <div class="member-status">${m.status}</div>
   </article>
